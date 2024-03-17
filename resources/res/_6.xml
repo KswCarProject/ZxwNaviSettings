@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="67dp">
+    <ImageButton android:id="@+id/btnApp" android:background="@drawable/id7_btn_set_app_item" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <CheckBox android:id="@+id/chkApp" android:background="@drawable/kesaiwei_1920x720_evo_id7_chk_selector_right2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="24dp"/>
+    <ImageView android:id="@+id/appIcon" android:layout_width="53dp" android:layout_height="53dp" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/chkApp"/>
+    <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/appLabel" android:layout_width="wrap_content" android:layout_height="53dp" android:text="appName" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_toEndOf="@+id/appIcon"/>
+    <ImageView android:id="@+id/line" android:background="@drawable/id7_set_right_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

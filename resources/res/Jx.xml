@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="ltr" android:layoutDirection="ltr">
+    <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+    <RelativeLayout android:id="@+id/view0" android:layout_width="match_parent" android:layout_height="57dp">
+        <ImageButton android:id="@+id/btnDvrOFF" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_dvr_OFF" android:background="@drawable/lexus_setting_chk_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_off" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_dvr_OFF"/>
+        <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view1" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/view0">
+        <ImageButton android:id="@+id/btnDvrCVBS" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_dvr_CVBS" android:background="@drawable/lexus_setting_chk_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="CVBS DVR" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_dvr_CVBS"/>
+        <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view2" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/view1">
+        <ImageButton android:id="@+id/btnDvrUSB" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_dvr_USB" android:background="@drawable/lexus_setting_chk_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="USB DVR" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_dvr_USB"/>
+        <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewDvrApp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/view2">
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/appList" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</RelativeLayout>

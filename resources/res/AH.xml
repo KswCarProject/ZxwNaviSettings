@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <ImageView android:background="@drawable/ksw_1920x720_benz_huakuaidi" android:layout_width="wrap_content" android:layout_height="286dp" android:layout_alignParentEnd="true"/>
+    <ScrollView android:id="@+id/mBackCarScrollView" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginEnd="22dp">
+        <RelativeLayout android:id="@+id/scrollLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/viewFrontCamera" android:layout_width="match_parent" android:layout_height="57dp">
+                <ImageButton android:id="@+id/btnFrontMirror" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_chk_FrontMirror" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_front_view_mirror_camera" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_FrontMirror"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewRearCamera" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/viewFrontCamera">
+                <ImageButton android:id="@+id/btnBackcarMirror" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_chk_BackcarMirror" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_Rear_view_mirror_camera" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_BackcarMirror"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewTrack" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/viewRearCamera">
+                <ImageButton android:id="@+id/btnReversingTrack" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_chk_ReversingTrack" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_wheeltrack" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_ReversingTrack"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewRadar" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/viewTrack">
+                <ImageButton android:id="@+id/btnRadar" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_chk_Radar" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_backcar1" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_Radar"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/view4" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/viewRadar">
+                <ImageButton android:id="@+id/btnMute" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_chk_Mute" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_backcar_mute" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_Mute"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/title0" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/view4">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/lbl_backcar_camera_type" android:layout_marginStart="20dp"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewCameraInstall" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/title0">
+                <ImageButton android:id="@+id/btnCameraInstall" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_Camera_Install" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_After_loading_the_camera" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Camera_Install"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewCameraOriginal" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/viewCameraInstall">
+                <ImageButton android:id="@+id/btnCameraOriginal" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_Camera_Original" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_Original_car_camera" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Camera_Original"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewCamera360" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/viewCameraOriginal">
+                <ImageButton android:id="@+id/btnCamera360" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_Camera_360" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_360_Camera" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Camera_360"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/viewAndroid360" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/viewCamera360">
+                <ImageButton android:id="@+id/btnAndroid360" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_Android360" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="Android360" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Android360"/>
+                <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/viewAndroid360CameraSelect" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/viewAndroid360">
+                <RelativeLayout android:id="@+id/viewAndroid360_1080P" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnAndroid360_1080P" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_Android360_1080P" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="62dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="1080P" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Android360_1080P"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/viewAndroid360_720P" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnAndroid360_720P" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_Android360_720P" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="62dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="720P" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Android360_720P"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/layoutCameraSignal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/viewAndroid360CameraSelect">
+                <RelativeLayout android:id="@+id/title1" android:layout_width="match_parent" android:layout_height="57dp">
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/lbl_backcar_camera_signal_type" android:layout_marginStart="20dp"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view8" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnSignal_auto" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_chk_signal_auto" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_backcar_camera_signal_type_auto" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_signal_auto"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view9" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnSignal_AHD1080_30" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_chk_signal_AHD1080_30" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="AHD-1080P-30HZ" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_signal_AHD1080_30"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view10" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnSignal_AHD1080_25" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_chk_signal_AHD1080_25" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="AHD-1080P-25HZ" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_signal_AHD1080_25"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view11" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnSignal_AHD720_30" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_chk_signal_AHD720_30" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="AHD-720P-30HZ" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_signal_AHD720_30"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view12" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnSignal_AHD720_25" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_chk_signal_AHD720_25" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="AHD-720P-25HZ" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_signal_AHD720_25"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view13" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnSignal_CVBS_NTSC" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_chk_signal_CVBS_NTSC" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="CVBS-NTSC" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_signal_CVBS_NTSC"/>
+                    <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:id="@+id/view14" android:layout_width="match_parent" android:layout_height="57dp">
+                    <ImageButton android:id="@+id/btnSignal_CVBS_PAL" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <CheckBox android:id="@+id/kesaiwei_chk_signal_CVBS_PAL" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="CVBS-PAL" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_chk_signal_CVBS_PAL"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <com.szchoiceway.settings.view.MyScrollbar android:id="@+id/myScrollbar" android:layout_width="14dp" android:layout_height="match_parent" android:layout_marginTop="1dp" android:layout_marginBottom="1dp" android:layout_marginEnd="1dp" android:layout_alignParentEnd="true" app:drawable="@drawable/ksw_1920x720_benz_huakuai2"/>
+</RelativeLayout>

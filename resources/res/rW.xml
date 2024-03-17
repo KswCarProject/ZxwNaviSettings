@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="435dp" android:layout_height="match_parent" android:paddingStart="7dp" android:paddingEnd="0dp">
+    <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/txtMusicApk" android:layout_width="wrap_content" android:layout_height="78dp" android:text="@string/lbl_set_video_apk" android:layout_marginStart="29dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/appList" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-13dp" android:layout_below="@+id/txtMusicApk"/>
+</RelativeLayout>

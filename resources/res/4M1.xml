@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="462dp" android:layout_height="match_parent">
+    <TextView android:textSize="25sp" android:textColor="?attr/ksw_id8_fontColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:text="@string/lbl_set_unit" android:layout_marginStart="42dp" style="@style/ksw_id8_shadowText"/>
+    <ImageView android:background="?attr/systemLine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:layout_centerHorizontal="true"/>
+    <ScrollView android:id="@+id/mScrollView" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="111dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/scrollLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="71dp" android:text="@string/lbl_unit_distance" android:layout_marginStart="42dp" style="@style/ksw_id8_shadowText"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <ImageButton android:id="@+id/btnDistanceUnitMetric" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_distance_UnitMetric" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+                <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="@string/lbl_unit_distance_metric" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <ImageButton android:id="@+id/btnDistanceUnitImperial" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_distance_UnitImperial" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+                <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="@string/lbl_unit_distance_imperial" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="71dp" android:text="@string/lbl_unit_oil" android:layout_marginStart="42dp" style="@style/ksw_id8_shadowText"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <ImageButton android:id="@+id/btnOilUnitL" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_oil_UnitL" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+                <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="L" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <ImageButton android:id="@+id/btnOilUnitIUS" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_oil_UnitUS" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+                <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="gal(US)" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <ImageButton android:id="@+id/btnOilUnitUK" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_oil_UnitUK" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+                <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="gal(Uk)" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.szchoiceway.settings.view.MyScrollbar android:id="@+id/myScrollbar" android:layout_width="5dp" android:layout_height="match_parent" android:layout_marginTop="111dp" android:layout_marginStart="453dp"/>
+</RelativeLayout>

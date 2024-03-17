@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="434dp" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr" android:paddingStart="6dp" android:paddingEnd="0dp">
+    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtBTPower" android:layout_width="wrap_content" android:layout_height="79dp" android:text="@string/lbl_bt_option" android:layout_marginStart="15dp"/>
+    <RelativeLayout android:id="@+id/view0" android:layout_width="match_parent" android:layout_height="53dp" android:layout_marginTop="-7dp" android:layout_below="@+id/txtBTPower">
+        <CheckBox android:id="@+id/kesaiwei_Install_BT" android:background="@drawable/pemp_id7_chk_selector1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+        <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_bt_type1" android:layout_marginStart="53dp"/>
+        <ImageButton android:id="@+id/btnInstallBT" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view1" android:layout_width="match_parent" android:layout_height="53dp" android:layout_below="@+id/view0">
+        <CheckBox android:id="@+id/kesaiwei_Original_BT" android:background="@drawable/pemp_id7_chk_selector1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+        <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="53dp" android:text="@string/lbl_bt_type2"/>
+        <ImageButton android:id="@+id/btnOriginalBT" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewExternalBt" android:visibility="visible" android:layout_width="match_parent" android:layout_height="53dp" android:layout_below="@+id/view1">
+        <CheckBox android:id="@+id/kesaiwei_External_BT" android:background="@drawable/pemp_id7_chk_selector1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+        <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="53dp" android:text="@string/lbl_bt_type3"/>
+        <ImageButton android:id="@+id/btnExternalBT" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</RelativeLayout>

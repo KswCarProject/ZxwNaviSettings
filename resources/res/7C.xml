@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/ksw_1920x720_evo_id8_settings_system_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageButton android:id="@+id/btnReturn" android:background="@null" android:layout_width="115dp" android:layout_height="67dp" android:layout_centerVertical="true"/>
+    <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="224dp" android:layout_marginStart="50dp"/>
+    <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_info_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="134dp" android:layout_marginStart="800dp"/>
+    <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list" android:layout_width="462dp" android:layout_height="match_parent" android:layout_marginStart="115dp"/>
+    <ScrollView android:id="@+id/mScrollView" android:scrollbars="none" android:layout_width="462dp" android:layout_height="wrap_content" android:layout_marginTop="45dp" android:layout_marginStart="115dp">
+        <LinearLayout android:orientation="vertical" android:id="@+id/lytSysInfor" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp">
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_system_mcu" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/TvMCUVer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="null" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_system_app" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/TvAppVer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="20220905" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_system_ver" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/TvBootVer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="20220905" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_android_ver" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/TvOSVer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="20220905" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_system_bt" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/TvBTVer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="20220905" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="24sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="47dp" android:layout_marginTop="-3dp" android:text="UUID:" android:layout_marginStart="60dp" style="@style/ksw_id8_shadowText"/>
+                <TextView android:textSize="24sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvUUID" android:layout_width="667dp" android:layout_height="47dp" android:layout_marginTop="-3dp" android:text="010E6A88-3BFD-00B6-0000-000100001A88" android:layout_marginStart="267dp" style="@style/ksw_id8_shadowText"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_system_storage" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/TvNandflash" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="4.3GB/32.0GB" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_system_ram" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/TvRAM" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="786MB/1024MB" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <Button android:id="@+id/btn_mcu_upgrade" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_Mcu_Upgrade" android:layout_centerVertical="true" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="47dp" android:layout_alignParentEnd="true"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <Button android:id="@+id/btnSysReset" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_reset" android:layout_centerVertical="true" android:layout_marginStart="33dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="47dp" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.szchoiceway.settings.view.MyScrollbar android:id="@+id/myScrollbar" android:layout_width="5dp" android:layout_height="435dp" android:layout_marginTop="45dp" android:layout_marginStart="569dp"/>
+</RelativeLayout>

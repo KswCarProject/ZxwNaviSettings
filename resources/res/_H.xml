@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#fff" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@+id/viewTips" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="26sp" android:textColor="#000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60dp" android:text="@string/lbl_manual_tip1" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="24sp" android:textColor="#000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:text="@string/lbl_manual_tip2" android:layout_centerHorizontal="true"/>
+        <GridView android:id="@+id/gridView" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="170dp" android:numColumns="4"/>
+        <TextView android:textSize="24sp" android:textColor="#000" android:id="@+id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120dp" android:text="@string/lbl_manual_importing" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <Button android:textColor="#fff" android:id="@+id/openPdf" android:background="@drawable/btn_manual_open" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginLeft="300dp" android:layout_marginBottom="40dp" android:text="@string/lbl_manual_open" android:layout_alignParentBottom="true"/>
+        <Button android:textColor="#fff" android:id="@+id/importPdf" android:background="@drawable/btn_manual_open" android:layout_width="200dp" android:layout_height="50dp" android:layout_marginRight="300dp" android:layout_marginBottom="40dp" android:text="@string/lbl_manual_import" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewPdf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.joanzapata.pdfview.PDFView android:id="@+id/pdfView" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:id="@+id/btnFloat1" android:background="#808a87" android:layout_width="5dp" android:layout_height="50dp" android:layout_marginLeft="3dp" android:layout_marginTop="20dp"/>
+        <View android:id="@+id/btnFloat2" android:layout_width="100dp" android:layout_height="50dp" android:layout_marginLeft="8dp" android:layout_marginTop="20dp"/>
+        <Button android:textColor="#fff" android:id="@+id/importPdf2" android:background="@drawable/btn_manual_open" android:visibility="visible" android:layout_width="100dp" android:layout_height="50dp" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:text="@string/lbl_manual_import"/>
+    </RelativeLayout>
+</RelativeLayout>

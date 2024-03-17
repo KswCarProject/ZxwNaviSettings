@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="44.8dp" android:text="@string/lb_time_syc" android:layout_marginStart="22.4dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="1.2dp">
+        <ImageButton android:id="@+id/btnOriginalTime" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_centerHorizontal="true"/>
+        <CheckBox android:id="@+id/kesaiwei_Original_Time" android:background="@drawable/small_audi_chk_selector" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true"/>
+        <TextView android:textSize="18sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_car" android:layout_centerVertical="true" android:layout_marginStart="58dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="1.2dp">
+        <ImageButton android:id="@+id/btnAutoSync" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_centerHorizontal="true"/>
+        <CheckBox android:id="@+id/kesaiwei_Auto_Sync" android:background="@drawable/small_audi_chk_selector" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true"/>
+        <TextView android:textSize="18sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_android" android:layout_centerVertical="true" android:layout_marginStart="58dp"/>
+    </RelativeLayout>
+    <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/btnSys" android:layout_width="match_parent" android:layout_height="44.8dp" android:text="@string/lb_time_sys" android:layout_marginStart="22.4dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="1.2dp">
+        <ImageButton android:id="@+id/btn12Hour" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_centerHorizontal="true"/>
+        <CheckBox android:id="@+id/kesaiwei_12_hour" android:background="@drawable/small_audi_chk_selector" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true"/>
+        <TextView android:textSize="18sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_12" android:layout_centerVertical="true" android:layout_marginStart="58dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="1.2dp">
+        <ImageButton android:id="@+id/btn24Hour" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_centerHorizontal="true"/>
+        <CheckBox android:id="@+id/kesaiwei_24_hour" android:background="@drawable/small_audi_chk_selector" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true"/>
+        <TextView android:textSize="18sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_24" android:layout_centerVertical="true" android:layout_marginStart="58dp"/>
+    </RelativeLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>

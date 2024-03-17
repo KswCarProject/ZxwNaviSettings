@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="44.8dp" android:text="@string/lb_Arm_mode" android:layout_marginStart="22.4dp"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="44.8dp" android:layout_marginTop="1.2dp">
+            <View android:id="@+id/viewKSW_Vol_val_00" android:background="@drawable/small_audi_btn_set_app_item" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <TextView android:textSize="18sp" android:textColor="#fff" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="103dp" android:layout_height="match_parent" android:text="@string/lb_Media_volume" android:lines="1" android:layout_marginStart="58dp"/>
+            <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_Vol_val_00" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/my_seekbar1_00"/>
+            <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekbar1_00" android:layout_width="360dp" android:layout_height="match_parent" android:max="40" android:progress="20" android:layout_marginStart="165dp" app:myProgress="@drawable/small_audi_progress_bar_d" app:myProgressBackground="@drawable/small_audi_progress_bar_n"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="44.8dp" android:layout_marginTop="1.2dp">
+            <View android:id="@+id/viewKSW_Vol_val_01" android:background="@drawable/small_audi_btn_set_app_item" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <TextView android:textSize="18sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="103dp" android:layout_height="44.8dp" android:text="@string/lb_Call_volume" android:lines="1" android:layout_marginStart="58dp"/>
+            <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_Vol_val_01" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/my_seekbar1_01"/>
+            <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekbar1_01" android:layout_width="360dp" android:layout_height="match_parent" android:max="40" android:progress="20" android:layout_marginStart="165dp" app:myProgress="@drawable/small_audi_progress_bar_d" app:myProgressBackground="@drawable/small_audi_progress_bar_n"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="44.8dp" android:layout_marginTop="1.2dp">
+            <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="44.8dp" android:text="@string/lb_Original_mode" android:layout_marginStart="22.4dp"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="44.8dp" android:layout_marginTop="1.2dp">
+            <View android:id="@+id/viewKSW_Vol_val_03" android:background="@drawable/small_audi_btn_set_app_item" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <TextView android:textSize="18sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="103dp" android:layout_height="44.8dp" android:text="@string/lb_Call_volume" android:lines="1" android:layout_marginStart="58dp"/>
+            <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_Vol_val_03" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/my_seekbar1_03"/>
+            <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekbar1_03" android:layout_width="360dp" android:layout_height="match_parent" android:max="40" android:progress="20" android:layout_marginStart="165dp" app:myProgress="@drawable/small_audi_progress_bar_d" app:myProgressBackground="@drawable/small_audi_progress_bar_n"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="44.8dp">
+            <View android:id="@+id/viewKSW_Vol_val_04" android:background="@drawable/small_audi_btn_set_app_item" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <TextView android:textSize="18sp" android:textColor="#ffffffff" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="103dp" android:layout_height="44.8dp" android:text="@string/lb_GPS_volume" android:lines="1" android:layout_marginStart="58dp"/>
+            <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_Vol_val_04" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/my_seekbar1_04"/>
+            <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekbar1_04" android:layout_width="360dp" android:layout_height="match_parent" android:max="40" android:progress="20" android:layout_marginStart="165dp" app:myProgress="@drawable/small_audi_progress_bar_d" app:myProgressBackground="@drawable/small_audi_progress_bar_n"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

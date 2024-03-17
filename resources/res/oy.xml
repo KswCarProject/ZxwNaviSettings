@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="909dp" android:layout_height="412dp" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="889dp" android:layout_height="64dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:background="@drawable/audi_mib3_settings_icon_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="25dp"/>
+        <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="63dp" android:text="@string/lbl_datatimer_set" android:layout_marginStart="84dp"/>
+        <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <Button android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/btnSyc" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="889dp" android:layout_height="63dp" android:layout_marginTop="64dp" android:text="@string/lb_time_syc" android:drawableEnd="@drawable/audi_mib3_settings_icon" android:paddingStart="112dp" android:paddingEnd="33dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/btnSyc"/>
+    <Button android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/btnSys" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="889dp" android:layout_height="63dp" android:layout_marginTop="128dp" android:text="@string/lb_time_sys" android:drawableEnd="@drawable/audi_mib3_settings_icon" android:paddingStart="112dp" android:paddingEnd="33dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/btnSys"/>
+    <RelativeLayout android:id="@+id/viewSyc" android:background="#000" android:visibility="gone" android:layout_width="889dp" android:layout_height="match_parent" android:layout_marginTop="64dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="64dp">
+            <ImageButton android:id="@+id/btnOriginalTime" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="63dp" android:layout_centerHorizontal="true"/>
+            <CheckBox android:id="@+id/kesaiwei_Original_Time" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+            <TextView android:textSize="26sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_car" android:layout_centerVertical="true" android:layout_marginStart="158dp"/>
+            <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="64dp">
+            <ImageButton android:id="@+id/btnAutoSync" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="63dp" android:layout_centerHorizontal="true"/>
+            <CheckBox android:id="@+id/kesaiwei_Auto_Sync" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+            <TextView android:textSize="26sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_android" android:layout_centerVertical="true" android:layout_marginStart="158dp"/>
+            <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewSys" android:background="#000" android:visibility="gone" android:layout_width="889dp" android:layout_height="match_parent" android:layout_marginTop="64dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="64dp">
+            <ImageButton android:id="@+id/btn12Hour" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="63dp" android:layout_centerHorizontal="true"/>
+            <CheckBox android:id="@+id/kesaiwei_12_hour" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+            <TextView android:textSize="26sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_12" android:layout_centerVertical="true" android:layout_marginStart="158dp"/>
+            <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="64dp">
+            <ImageButton android:id="@+id/btn24Hour" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="63dp" android:layout_centerHorizontal="true"/>
+            <CheckBox android:id="@+id/kesaiwei_24_hour" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+            <TextView android:textSize="26sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_24" android:layout_centerVertical="true" android:layout_marginStart="158dp"/>
+            <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

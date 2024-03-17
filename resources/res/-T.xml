@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/ksw_1920x720_evo_id8_settings_system_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageButton android:id="@+id/btnReturn" android:background="@null" android:layout_width="115dp" android:layout_height="67dp" android:layout_centerVertical="true"/>
+    <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="224dp" android:layout_marginStart="50dp"/>
+    <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_time_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="134dp" android:layout_marginStart="800dp"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list" android:layout_width="462dp" android:layout_height="wrap_content" android:layout_marginStart="115dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="45dp">
+            <ImageButton android:id="@+id/btnSyc" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="25sp" android:textColor="#fff" android:id="@+id/titleSyc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_time_syc" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+            <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/valueSyc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="car time" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+            <ImageView android:id="@+id/imgSyc" android:background="@drawable/ksw_1920x720_evo_id8_settings_time_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="43dp" android:layout_alignParentEnd="true"/>
+            <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/viewSyc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-6dp">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp">
+                <ImageButton android:id="@+id/btnOriginalTime" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_Original_Time" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="56dp"/>
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_car" android:layout_centerVertical="true" android:layout_marginStart="91dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <ImageButton android:id="@+id/btnAutoSync" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_Auto_Sync" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="56dp"/>
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_android" android:layout_centerVertical="true" android:layout_marginStart="91dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+            <ImageButton android:id="@+id/btnSys" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/lb_time_sys" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+            <TextView android:textSize="17sp" android:textColor="?attr/ksw_id8_fontColor" android:id="@+id/valueSys" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="24-Hour" android:layout_marginStart="32dp" style="@style/ksw_id8_shadowText"/>
+            <ImageView android:id="@+id/imgSys" android:background="@drawable/ksw_1920x720_evo_id8_settings_time_down" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="43dp" android:layout_alignParentEnd="true"/>
+            <ImageView android:id="@+id/lineSys" android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/viewSys" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-6dp">
+            <RelativeLayout android:id="@+id/view12Hour" android:layout_width="match_parent" android:layout_height="71dp">
+                <ImageButton android:id="@+id/btn12Hour" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_12_hour" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="56dp"/>
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_12" android:layout_centerVertical="true" android:layout_marginStart="91dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <ImageButton android:id="@+id/btn24Hour" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_24_hour" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="56dp"/>
+                <TextView android:textSize="25sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lb_time_24" android:layout_centerVertical="true" android:layout_marginStart="91dp" style="@style/ksw_id8_shadowText"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

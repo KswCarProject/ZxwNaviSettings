@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/scrollLayout" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        <RadioButton android:textSize="18sp" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/BtnSysSetting" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector0" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_sys_set" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/small_ksw_benz_xitongshezhi_you" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        <RadioButton android:textSize="18sp" android:ellipsize="end" android:id="@+id/BtnNavSet" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector1" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_nav_set" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/ksw_benz_daohangshezhi" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        <RadioButton android:textSize="18sp" android:ellipsize="end" android:id="@+id/BtnVolumeSet" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_volume_set" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/ksw_benz_yinliangshezhi" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        <RadioButton android:textSize="18sp" android:ellipsize="end" android:id="@+id/BtnVolSet_KSW" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector1" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_sound_set" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/ksw_benz_yinxiaoshezhi" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        <RadioButton android:textSize="18sp" android:ellipsize="end" android:id="@+id/BtnLanguage" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector1" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_language_set" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/ksw_benz_yuyanshezhi" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        <RadioButton android:textSize="18sp" android:ellipsize="end" android:id="@+id/BtnDataTimer" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector1" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_datatimer_set" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/ksw_benz_shijianshezhi" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        <RadioButton android:textSize="18sp" android:id="@+id/BtnSysInfor" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector1" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_sys_infor" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/ksw_benz_xitongxinxi" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="2dp" android:layout_alignParentBottom="true"/>
+        <RadioButton android:textSize="18sp" android:ellipsize="end" android:id="@+id/BtnMoreSetting" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector1" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_android_set" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/ksw_benz_anzhuoshezhi" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="166.4dp" android:layout_height="60dp">
+        <RadioButton android:textSize="18sp" android:ellipsize="end" android:id="@+id/BtnFatSetting" android:background="@drawable/small_kesaiwei_1920x720_benz_btn_short_selector2" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lbl_fat_set" android:lines="1" android:paddingStart="60dp" android:paddingEnd="0dp"/>
+        <ImageView android:background="@drawable/ksw_benz_gongchangshezhi" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true" android:layout_marginStart="8dp"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="623dp" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="0dp">
+            <TextView android:textSize="24sp" android:textColor="#ffffffff" android:gravity="left" android:layout_width="747dp" android:layout_height="57dp" android:layout_marginTop="41dp" android:text="@string/lbl_sel_apk" android:singleLine="true" android:shadowColor="#ff000000" android:shadowDx="2" android:shadowDy="2" android:shadowRadius="1" android:textDirection="ltr" android:layout_marginStart="32dp"/>
+            <ImageView android:id="@+id/VwApkIcon" android:background="@null" android:padding="9dp" android:layout_width="53dp" android:layout_height="53dp" android:layout_marginTop="78dp" android:scaleType="fitXY" android:layout_marginStart="37dp"/>
+            <TextView android:textSize="24sp" android:textColor="#ff909090" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvApkInfor" android:layout_width="660dp" android:layout_height="62dp" android:layout_marginTop="78dp" android:singleLine="true" android:layout_marginStart="20dp" android:layout_toEndOf="@+id/VwApkIcon"/>
+            <ImageButton android:id="@+id/BtnRunNav" android:background="@drawable/kesaiwei_1280x480_benchi_btn_nav_ok" android:layout_width="87dp" android:layout_height="62dp" android:layout_marginTop="78dp" android:layout_marginStart="487dp"/>
+            <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="140dp" android:layout_marginStart="0dp"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/appList" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/TvApkInfor"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/LytMsgYesNo" android:background="#aa000000" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageButton android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@null"/>
+            <ImageView android:id="@+id/BtnResetView" android:background="@drawable/kesaiwei_1920x720_evo_id7_kuang" android:layout_width="400dp" android:layout_height="220dp" android:layout_marginTop="167dp" android:layout_centerHorizontal="true"/>
+            <ImageButton android:id="@+id/BtnResetYes" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27dp" android:src="@drawable/pemp_id7_btn_true" android:layout_alignBottom="@+id/BtnResetView" android:layout_marginStart="67dp" android:layout_alignStart="@+id/BtnResetView"/>
+            <ImageButton android:id="@+id/BtnResetNo" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="27dp" android:src="@drawable/pemp_id7_btn_false" android:layout_alignBottom="@+id/BtnResetView" android:layout_marginEnd="67dp" android:layout_alignEnd="@+id/BtnResetView"/>
+            <TextView android:textSize="27sp" android:textColor="#ff909090" android:gravity="center" android:id="@+id/TextResetTip" android:layout_width="400dp" android:layout_height="133dp" android:text="@string/lbl_sel_nav_tip" android:shadowColor="#ff000000" android:shadowDx="5" android:shadowDy="5" android:shadowRadius="3" android:layout_alignTop="@+id/BtnResetView" android:layout_centerHorizontal="true" android:textDirection="ltr" android:paddingStart="17dp" android:paddingEnd="17dp"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <ImageView android:background="@drawable/als_sp_id7_rp_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83dp" android:layout_marginStart="638dp"/>
+</RelativeLayout>

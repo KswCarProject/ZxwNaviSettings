@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="wrap_content" android:textDirection="ltr" android:layoutDirection="ltr">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/systemScrollView_le_guideline" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintGuide_percent="0.0167"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/systemScrollView_ri_guideline" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintGuide_percent="0.5583"/>
+    <ScrollView android:id="@+id/systemScrollView" android:scrollbars="none" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="@+id/systemScrollView_ri_guideline" app:layout_constraintStart_toStartOf="@+id/systemScrollView_le_guideline" app:layout_constraintTop_toTopOf="0">
+        <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/scrollLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioGroup android:orientation="vertical" android:id="@+id/radioGroup" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_percent="0.988">
+                <RadioButton android:textSize="24sp" android:textColor="#9cc5e6" android:gravity="center_vertical" android:id="@+id/btnBackCarSet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_backcar"/>
+                <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/btnDisplaySet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_display"/>
+                <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/btnBtSet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_bt"/>
+                <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/btnUnitSet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_unit"/>
+                <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/btnDvrSet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_dvr"/>
+                <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/btnAuxSwitchSet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_aux"/>
+                <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/btnMusicAppSet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_musicplayer"/>
+                <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/btnVideoAppSet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_videoplayer"/>
+                <RadioButton android:textSize="24sp" android:gravity="center_vertical" android:id="@+id/btnOtherSet" android:background="@drawable/lexus_1920x720_benz_btn_long_selector0" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="63dp" android:button="@null" android:text="@string/lbl_set_other"/>
+            </RadioGroup>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_percent="0.988">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="63dp">
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY"/>
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="63dp">
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="63dp">
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="63dp">
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="63dp">
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="63dp">
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="63dp">
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="63dp">
+                    <ImageView android:background="@drawable/lexus_settings_line_left" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+    <com.szchoiceway.settings.view.MyScrollbar android:id="@+id/myScrollbar" android:layout_width="4dp" android:layout_height="0dp" app:drawable="@drawable/lexus_settings_slider" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="@+id/systemScrollView_ri_guideline" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/viewPager_le_guideline" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintGuide_percent="0.5833"/>
+    <com.szchoiceway.settings.IndexViewPager android:id="@+id/viewPager" android:background="@drawable/lexus_music_filelist_bk" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintDimensionRatio="490:421" app:layout_constraintStart_toStartOf="@+id/viewPager_le_guideline" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_percent="0.408"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

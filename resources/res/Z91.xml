@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="434dp" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr" android:paddingStart="6dp" android:paddingEnd="0dp">
+    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtMode" android:layout_width="wrap_content" android:layout_height="79dp" android:text="@string/lbl_boot_mode" android:layout_marginStart="15dp"/>
+    <RelativeLayout android:id="@+id/view0" android:layout_width="match_parent" android:layout_height="53dp" android:layout_marginTop="-7dp" android:layout_below="@+id/txtMode">
+        <CheckBox android:id="@+id/kesaiwei_mode_enable" android:background="@drawable/pemp_id7_chk_selector1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+        <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_boot_mode1" android:layout_marginStart="53dp"/>
+        <ImageButton android:id="@+id/btnModeEnable" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view1" android:layout_width="match_parent" android:layout_height="53dp" android:layout_below="@+id/view0">
+        <CheckBox android:id="@+id/kesaiwei_mode_android" android:background="@drawable/pemp_id7_chk_selector1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+        <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_boot_mode2" android:layout_marginStart="53dp"/>
+        <ImageButton android:id="@+id/btnModeAndroid" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="53dp" android:layout_below="@+id/view1">
+        <CheckBox android:id="@+id/kesaiwei_mode_original" android:background="@drawable/pemp_id7_chk_selector1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+        <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_boot_mode3" android:layout_marginStart="53dp"/>
+        <ImageButton android:id="@+id/btnModeOriginal" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@+id/txtBTPower" android:layout_width="match_parent" android:layout_height="57dp">
+        <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="57dp" android:text="@string/lbl_bt_option" android:layout_marginStart="20dp"/>
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view0" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/txtBTPower">
+        <ImageButton android:id="@+id/btnInstallBT" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_Install_BT" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_bt_type1" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Install_BT"/>
+        <ImageView android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view1" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/view0">
+        <ImageButton android:id="@+id/btnOriginalBT" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_Original_BT" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_bt_type2" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Original_BT"/>
+        <ImageView android:id="@+id/viewLine" android:background="@drawable/ksw_1920x720_benz_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewExternalBt" android:visibility="visible" android:layout_width="match_parent" android:layout_height="57dp" android:layout_below="@+id/view1">
+        <ImageButton android:id="@+id/btnExternalBT" android:background="@drawable/kesaiwei_1920x720_benz_btn_long_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_External_BT" android:background="@drawable/kesaiwei_1920x720_benz_chk_selector2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_bt_type3" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_External_BT"/>
+    </RelativeLayout>
+</RelativeLayout>

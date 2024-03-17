@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/mScrollView" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="39dp">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <TextView android:textSize="24sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="367dp" android:layout_height="67dp" android:text="@string/lbl_sound_set" android:layout_marginStart="60dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <View android:id="@+id/viewKSW_Vol_page2_low" android:background="@drawable/kesaiwei_1920x720_evo_id7_seekbar_selector" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <TextView android:textSize="24sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lbl_Bass" android:layout_marginStart="140dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_lada_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="287dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_VolValue_Bass" android:layout_width="67dp" android:layout_height="67dp" android:text="0" android:layout_marginStart="350dp"/>
+                    <View android:id="@+id/viewKSW_VolSeekBar_page2_low" android:background="@drawable/kesaiwei_1920x720_evo_id7_seekbar_selector" android:layout_width="307dp" android:layout_height="75dp" android:layout_marginTop="-7dp" android:layout_marginStart="482dp"/>
+                    <SeekBar android:id="@+id/KSW_VolSeekBar_page2_low" android:layout_width="307dp" android:layout_height="75dp" android:layout_marginTop="-7dp" android:max="24" android:progress="12" android:progressDrawable="@drawable/kesaiwei_1920x720_evo_id7_effect_seekbar_style" android:thumb="@drawable/kesaiwei_1920x720_evo_id7_btn_kuaikuai_selector" android:thumbOffset="40dp" android:layout_marginStart="482dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <View android:id="@+id/viewKSW_Vol_page2_mid" android:background="@drawable/kesaiwei_1920x720_evo_id7_seekbar_selector" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <TextView android:textSize="24sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lbl_Middle" android:layout_marginStart="140dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_lada_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="287dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_VolValue_Alto" android:layout_width="67dp" android:layout_height="67dp" android:text="0" android:layout_marginStart="350dp"/>
+                    <View android:id="@+id/viewKSW_VolSeekBar_page2_mid" android:background="@drawable/kesaiwei_1920x720_evo_id7_seekbar_selector" android:layout_width="307dp" android:layout_height="75dp" android:layout_marginTop="-7dp" android:layout_marginStart="482dp"/>
+                    <SeekBar android:id="@+id/KSW_VolSeekBar_page2_mid" android:layout_width="307dp" android:layout_height="75dp" android:layout_marginTop="-7dp" android:max="24" android:progress="12" android:progressDrawable="@drawable/kesaiwei_1920x720_evo_id7_effect_seekbar_style" android:thumb="@drawable/kesaiwei_1920x720_evo_id7_btn_kuaikuai_selector" android:thumbOffset="40dp" android:layout_marginStart="482dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <View android:id="@+id/viewKSW_Vol_page2_hight" android:background="@drawable/kesaiwei_1920x720_evo_id7_seekbar_selector" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <TextView android:textSize="24sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lbl_Tre" android:layout_marginStart="140dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_lada_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="287dp"/>
+                    <TextView android:textSize="24sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_VolValue_Treble" android:layout_width="133dp" android:layout_height="67dp" android:text="0" android:layout_marginStart="350dp"/>
+                    <View android:id="@+id/viewKSW_VolSeekBar_page2_hight" android:background="@drawable/kesaiwei_1920x720_evo_id7_seekbar_selector" android:layout_width="307dp" android:layout_height="75dp" android:layout_marginTop="-7dp" android:layout_marginStart="482dp"/>
+                    <SeekBar android:id="@+id/KSW_VolSeekBar_page2_hight" android:layout_width="307dp" android:layout_height="75dp" android:layout_marginTop="-7dp" android:max="24" android:progress="12" android:progressDrawable="@drawable/kesaiwei_1920x720_evo_id7_effect_seekbar_style" android:thumb="@drawable/kesaiwei_1920x720_evo_id7_btn_kuaikuai_selector" android:thumbOffset="40dp" android:layout_marginStart="482dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <Button android:textSize="24sp" android:textColor="#ffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_btn_eq_custom" android:background="@drawable/kesaiwei_1920x720_evo_id7_btn_lang1_selector" android:layout_width="920dp" android:layout_height="67dp" android:text="@string/lbl_User" android:paddingStart="200dp" android:paddingEnd="0dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <Button android:textSize="26sp" android:textColor="#ffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_btn_eq_pop" android:background="@drawable/kesaiwei_1920x720_evo_id7_btn_lang1_selector" android:layout_width="920dp" android:layout_height="67dp" android:text="@string/lbl_Pop" android:paddingStart="200dp" android:paddingEnd="0dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <Button android:textSize="24sp" android:textColor="#ffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_btn_eq_classical" android:background="@drawable/kesaiwei_1920x720_evo_id7_btn_lang1_selector" android:layout_width="920dp" android:layout_height="67dp" android:text="@string/lbl_Classical" android:paddingStart="200dp" android:paddingEnd="0dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <Button android:textSize="24sp" android:textColor="#ffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_btn_eq_rock" android:background="@drawable/kesaiwei_1920x720_evo_id7_btn_lang1_selector" android:layout_width="920dp" android:layout_height="67dp" android:text="@string/lbl_Rock" android:paddingStart="200dp" android:paddingEnd="0dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <Button android:textSize="24sp" android:textColor="#ffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_btn_eq_jazz" android:background="@drawable/kesaiwei_1920x720_evo_id7_btn_lang1_selector" android:layout_width="920dp" android:layout_height="67dp" android:text="@string/lbl_Jazz" android:paddingStart="200dp" android:paddingEnd="0dp"/>
+                    <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_youcexian" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                    <Button android:textSize="24sp" android:textColor="#ffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_btn_eq_dance" android:background="@drawable/kesaiwei_1920x720_evo_id7_btn_lang1_selector" android:layout_width="920dp" android:layout_height="67dp" android:text="@string/lbl_Dance" android:paddingStart="200dp" android:paddingEnd="0dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="269dp">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="75dp" android:layout_marginTop="-4dp">
+                    <CheckBox android:id="@+id/chkUser" android:background="@drawable/kesaiwei_1920x720_evo_id7_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginStart="107dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="75dp" android:layout_marginTop="-8dp">
+                    <CheckBox android:id="@+id/chkPop" android:background="@drawable/kesaiwei_1920x720_evo_id7_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginStart="107dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="75dp" android:layout_marginTop="-8dp">
+                    <CheckBox android:id="@+id/chkClassical" android:background="@drawable/kesaiwei_1920x720_evo_id7_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginStart="107dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="75dp" android:layout_marginTop="-8dp">
+                    <CheckBox android:id="@+id/chkRock" android:background="@drawable/kesaiwei_1920x720_evo_id7_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginStart="107dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="75dp" android:layout_marginTop="-8dp">
+                    <CheckBox android:id="@+id/chkJazz" android:background="@drawable/kesaiwei_1920x720_evo_id7_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginStart="107dp"/>
+                </RelativeLayout>
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="75dp" android:layout_marginTop="-8dp">
+                    <CheckBox android:id="@+id/chkDance" android:background="@drawable/kesaiwei_1920x720_evo_id7_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_marginStart="107dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

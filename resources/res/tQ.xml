@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="46dp" android:textDirection="ltr" android:layoutDirection="ltr">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="match_parent" android:layout_height="46.8dp">
+        <ImageButton android:id="@+id/btnApp" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:id="@+id/appIcon" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginStart="22.4dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/appLabel" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="appName" android:layout_marginStart="12dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@+id/appIcon" app:layout_constraintTop_toTopOf="0"/>
+        <CheckBox android:id="@+id/chkApp" android:background="@drawable/small_audi_chk_selector" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_marginEnd="64dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <View android:id="@+id/line" android:layout_width="match_parent" android:layout_height="1.2dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

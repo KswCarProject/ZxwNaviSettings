@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="@drawable/audi_mib3_settings_bk_1560x700" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <ImageView android:background="@drawable/audi_mib3_settings_pic_1560x700" android:layout_width="226dp" android:layout_height="180dp" android:layout_marginTop="179dp" android:layout_marginEnd="29dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <ImageView android:id="@+id/iconView" android:layout_width="73dp" android:layout_height="65dp" android:layout_marginTop="147dp" android:layout_marginEnd="178dp" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/titleView" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="49dp" android:layout_marginBottom="2dp" android:layout_marginStart="34dp" android:layout_marginEnd="283dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ScrollView android:id="@+id/id_scroll_view" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+            <include layout="@layout/audi_set_item_1560x700"/>
+        </ScrollView>
+        <ImageView android:background="@drawable/audi_mib3_music_filelist_list_slider_n" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="18dp" android:layout_marginEnd="1dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+        <com.szchoiceway.settings.view.MyScrollbar android:id="@+id/myScrollbar" android:visibility="visible" android:layout_width="3dp" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="18dp" app:drawable="@drawable/audi_mib3_music_filelist_list_slider_d" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/contentView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="49dp" android:layout_marginBottom="2dp" android:layout_marginStart="34dp" android:layout_marginEnd="283dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <com.szchoiceway.settings.IndexViewPager android:id="@+id/viewpager" android:persistentDrawingCache="animation" android:layout_width="match_parent" android:layout_height="match_parent" android:flipInterval="30"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <androidx.constraintlayout.widget.ConstraintLayout android:id="@+id/passwordView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include layout="@layout/audi_code_layout_1560x700"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

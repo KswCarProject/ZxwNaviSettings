@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:background="#000" android:layout_width="909dp" android:layout_height="412dp" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="889dp" android:layout_height="64dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:background="@drawable/audi_mib3_settings_icon_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="25dp"/>
+        <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="63dp" android:text="@string/lbl_set_bt" android:layout_marginStart="84dp"/>
+        <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtBTPower" android:layout_width="wrap_content" android:layout_height="63dp" android:layout_marginTop="64dp" android:text="@string/lbl_bt_option" android:layout_marginStart="112dp"/>
+    <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/txtBTPower"/>
+    <RelativeLayout android:id="@+id/view0" android:layout_width="889dp" android:layout_height="64dp" android:layout_below="@+id/txtBTPower">
+        <ImageButton android:id="@+id/btnInstallBT" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_Install_BT" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="115dp"/>
+        <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_bt_type1" android:layout_marginStart="158dp"/>
+        <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/view1" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/view0">
+        <ImageButton android:id="@+id/btnOriginalBT" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_Original_BT" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="115dp"/>
+        <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_bt_type2" android:layout_marginStart="158dp"/>
+        <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewExternalBt" android:visibility="visible" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/view1">
+        <ImageButton android:id="@+id/btnExternalBT" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <CheckBox android:id="@+id/kesaiwei_External_BT" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="115dp"/>
+        <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_bt_type3" android:layout_marginStart="158dp"/>
+        <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

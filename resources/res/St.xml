@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="66dp" android:textDirection="ltr" android:layoutDirection="ltr">
+    <ImageButton android:id="@+id/btnApp" android:background="@drawable/ksw_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="65dp"/>
+    <CheckBox android:id="@+id/chkApp" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="27dp" android:layout_height="27dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="93dp"/>
+    <ImageView android:id="@+id/appIcon" android:layout_width="35dp" android:layout_height="35dp" android:layout_centerVertical="true" android:layout_marginStart="14dp" android:layout_toEndOf="@+id/chkApp"/>
+    <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/appLabel" android:layout_width="wrap_content" android:layout_height="64dp" android:text="appName" android:layout_centerVertical="true" android:layout_marginStart="13dp" android:layout_toEndOf="@+id/appIcon"/>
+    <ImageView android:id="@+id/line" android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

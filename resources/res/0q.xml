@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="462dp" android:layout_height="match_parent">
+    <TextView android:textSize="25sp" android:textColor="?attr/ksw_id8_fontColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:text="@string/lbl_set_other" android:layout_marginStart="42dp" style="@style/ksw_id8_shadowText"/>
+    <ImageView android:background="?attr/systemLine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="111dp">
+        <TextView android:textSize="25sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="match_parent" android:layout_height="71dp" android:text="@string/lbl_boot_mode" android:layout_marginStart="42dp" style="@style/ksw_id8_shadowText"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+            <ImageButton android:id="@+id/btnModeEnable" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+            <CheckBox android:id="@+id/kesaiwei_mode_enable" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="@string/lbl_boot_mode1" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+            <ImageButton android:id="@+id/btnModeAndroid" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+            <CheckBox android:id="@+id/kesaiwei_mode_android" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="@string/lbl_boot_mode2" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+            <ImageButton android:id="@+id/btnModeOriginal" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+            <CheckBox android:id="@+id/kesaiwei_mode_original" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="@string/lbl_boot_mode3" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

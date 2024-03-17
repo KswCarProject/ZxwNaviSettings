@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#000" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <com.szchoiceway.settings.view.MyScrollView android:id="@+id/mScrollView" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/scrollLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@+id/view0" android:layout_width="wrap_content" android:layout_height="44.8dp">
+                <ImageButton android:id="@+id/btnAutoAux" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_chk_auto_aux" android:background="@drawable/small_audi_chk_selector2" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true"/>
+                <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_set_auto_switch_aux" android:layout_marginStart="22.4dp"/>
+            </RelativeLayout>
+            <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtAuxSwitch" android:layout_width="wrap_content" android:layout_height="44.8dp" android:layout_marginTop="1.2dp" android:text="@string/lbl_set_switch_auxt_type" android:layout_below="@+id/view0" android:layout_marginStart="22.4dp"/>
+            <RelativeLayout android:id="@+id/view1" android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="1.2dp" android:layout_below="@+id/txtAuxSwitch">
+                <ImageButton android:id="@+id/btnAuxTypeA" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_aux_typeA" android:background="@drawable/small_audi_chk_selector" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true"/>
+                <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_set_switch_auxt_typeA" android:layout_marginStart="22.4dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/view2" android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="1.2dp" android:layout_below="@+id/view1">
+                <ImageButton android:id="@+id/btnAuxTypeH" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_aux_typeH" android:background="@drawable/small_audi_chk_selector" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true"/>
+                <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_set_switch_auxt_typeH" android:layout_marginStart="22.4dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/view3" android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="1.2dp" android:layout_below="@+id/view2">
+                <ImageButton android:id="@+id/btnAuxTypeCustomize" android:background="@drawable/small_audi_btn_set_app_item" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_aux_type_customize" android:background="@drawable/small_audi_chk_selector" android:clickable="false" android:layout_width="40dp" android:layout_height="40dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginEnd="64dp" android:layout_alignParentEnd="true"/>
+                <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_set_switch_auxt_type_customize" android:layout_marginStart="22.4dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/view4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.2dp" android:layout_below="@+id/view3">
+                <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="44.8dp" android:text="@string/lbl_set_original_aux_position1" android:layout_marginStart="22.4dp"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="46dp">
+                    <View android:id="@+id/viewKSW_aux1_SeekBar" android:background="@drawable/small_audi_btn_set_app_item" android:clickable="false" android:layout_width="match_parent" android:layout_height="44.8dp"/>
+                    <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekBar1_aux1" android:layout_width="360dp" android:layout_height="match_parent" android:layout_centerHorizontal="true" app:myCurrentProgress="6" app:myMax="12" app:myProgress="@drawable/small_audi_progress_bar_d" app:myProgressBackground="@drawable/small_audi_progress_bar_n"/>
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_aux1_val" android:layout_width="wrap_content" android:layout_height="44.8dp" android:text="0" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/my_seekBar1_aux1"/>
+                </RelativeLayout>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/view5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1.2dp" android:layout_below="@+id/view4">
+                <TextView android:textSize="18sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="44.8dp" android:text="@string/lbl_set_original_aux_position2" android:layout_marginStart="22.4dp"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="44.8dp" android:layout_marginTop="46dp">
+                    <View android:id="@+id/viewKSW_aux2_SeekBar" android:background="@drawable/small_audi_btn_set_app_item" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekBar1_aux2" android:layout_width="360dp" android:layout_height="match_parent" android:layout_centerHorizontal="true" app:myCurrentProgress="6" app:myMax="12" app:myProgress="@drawable/small_audi_progress_bar_d" app:myProgressBackground="@drawable/small_audi_progress_bar_n"/>
+                    <TextView android:textSize="18sp" android:textColor="#ffffffff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/KSW_aux2_val" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="0" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/my_seekBar1_aux2"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </RelativeLayout>
+    </com.szchoiceway.settings.view.MyScrollView>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/systemScrollView_le_guideline" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintGuide_percent="0.0167"/>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/systemScrollView_ri_guideline" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintGuide_percent="0.5583"/>
+    <ScrollView android:scrollbarThumbVertical="@drawable/lexus_listview_scrollbar" android:id="@+id/mScrollView" android:layout_width="0dp" android:layout_height="match_parent" app:layout_constraintEnd_toEndOf="@+id/systemScrollView_ri_guideline" app:layout_constraintStart_toStartOf="@+id/systemScrollView_le_guideline">
+        <RelativeLayout android:id="@+id/scrollLayout" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY"/>
+            <RelativeLayout android:id="@+id/title0" android:layout_width="match_parent" android:layout_height="63dp">
+                <RadioButton android:textSize="24sp" android:textColor="@color/lexus_font_color_checked" android:gravity="center_vertical" android:id="@+id/btnSyc" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent" android:checked="true" android:button="@null" android:text="@string/lb_time_syc" android:paddingStart="20dp" android:paddingEnd="0dp"/>
+                <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/title1" android:layout_width="match_parent" android:layout_height="63dp" android:layout_below="@+id/title0">
+                <RadioButton android:textSize="24sp" android:textColor="@color/lexus_font_color_checked" android:gravity="center_vertical" android:id="@+id/btnSys" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent" android:button="@null" android:text="@string/lb_time_sys" android:paddingStart="20dp" android:paddingEnd="0dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@+id/viewPager_le_guideline" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintGuide_percent="0.5833"/>
+    <View android:id="@+id/viewPager" android:background="@drawable/lexus_music_filelist_bk" android:layout_width="0dp" android:layout_height="0dp" app:layout_constraintDimensionRatio="490:421" app:layout_constraintStart_toStartOf="@+id/viewPager_le_guideline" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_percent="0.408"/>
+    <RelativeLayout android:id="@+id/viewSyc" android:layout_width="0dp" android:layout_height="0dp" android:paddingHorizontal="20dp" app:layout_constraintDimensionRatio="490:421" app:layout_constraintStart_toStartOf="@+id/viewPager_le_guideline" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_percent="0.408">
+        <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY"/>
+        <RelativeLayout android:id="@+id/content0" android:layout_width="match_parent" android:layout_height="63dp">
+            <ImageButton android:id="@+id/btnOriginalTime" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <CheckBox android:id="@+id/kesaiwei_Original_Time" android:background="@drawable/lexus_setting_chk_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+            <TextView android:textSize="20sp" android:textColor="#ccc" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_time_car" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Original_Time"/>
+            <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/content1" android:layout_width="match_parent" android:layout_height="63dp" android:layout_below="@+id/content0">
+            <ImageButton android:id="@+id/btnAutoSync" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <CheckBox android:id="@+id/kesaiwei_Auto_Sync" android:background="@drawable/lexus_setting_chk_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+            <TextView android:textSize="20sp" android:textColor="#ccc" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_time_android" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_Auto_Sync"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewSys" android:visibility="gone" android:layout_width="0dp" android:layout_height="0dp" android:paddingHorizontal="20dp" app:layout_constraintDimensionRatio="490:421" app:layout_constraintStart_toStartOf="@+id/viewPager_le_guideline" app:layout_constraintTop_toTopOf="0" app:layout_constraintWidth_percent="0.408">
+        <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY"/>
+        <RelativeLayout android:id="@+id/content2" android:layout_width="match_parent" android:layout_height="63dp">
+            <ImageButton android:id="@+id/btn12Hour" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <CheckBox android:id="@+id/kesaiwei_12_hour" android:background="@drawable/lexus_setting_chk_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+            <TextView android:textSize="20sp" android:textColor="#ccc" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_time_12" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_12_hour"/>
+            <ImageView android:background="@drawable/lexus_settings_line_right" android:layout_width="match_parent" android:layout_height="1dp" android:scaleType="fitXY" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/content3" android:layout_width="match_parent" android:layout_height="63dp" android:layout_below="@+id/content2">
+            <ImageButton android:id="@+id/btn24Hour" android:background="@drawable/lexus_1920x720_benz_btn_long_selector1" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <CheckBox android:id="@+id/kesaiwei_24_hour" android:background="@drawable/lexus_setting_chk_button" android:clickable="false" android:layout_width="24dp" android:layout_height="24dp" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+            <TextView android:textSize="20sp" android:textColor="#ccc" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_time_24" android:layout_marginStart="12dp" android:layout_toEndOf="@+id/kesaiwei_24_hour"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

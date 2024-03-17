@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="434dp" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr" android:paddingStart="6dp" android:paddingEnd="0dp">
+    <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtVideoApk" android:layout_width="wrap_content" android:layout_height="79dp" android:layout_marginTop="-10dp" android:text="@string/lbl_set_video_apk" android:layout_marginStart="15dp"/>
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/appList" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-7dp" android:layout_below="@+id/txtVideoApk"/>
+</RelativeLayout>

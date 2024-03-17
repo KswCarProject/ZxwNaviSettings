@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="462dp" android:layout_height="match_parent">
+    <TextView android:textSize="25sp" android:textColor="?attr/ksw_id8_fontColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="68dp" android:text="@string/lbl_set_display" android:layout_marginStart="42dp" style="@style/ksw_id8_shadowText"/>
+    <ImageView android:background="?attr/systemLine" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="110dp" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="111dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+            <ImageButton android:id="@+id/btnVideoDrivingBan" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+            <CheckBox android:id="@+id/kesaiwei_chk_VideoDrivingBan" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="@string/lb_Video_while_driving_ban" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+            <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/viewProduct" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/view0">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <ImageButton android:id="@+id/btnSmallLightBL" android:background="?attr/fdBg" android:layout_width="446dp" android:layout_height="71dp" android:layout_centerHorizontal="true"/>
+                <CheckBox android:id="@+id/kesaiwei_chk_SmallLightBL" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white2" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="42dp"/>
+                <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="@string/lbl_control_backlight_by_small_light" android:layout_marginStart="86dp" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <TextView android:textSize="23sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="71dp" android:text="@string/lbl_blset" android:layout_marginStart="42dp" style="@style/ksw_id8_shadowText"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+                <View android:id="@+id/viewKSW_BLSeekBar" android:background="?attr/seekBarBg" android:layout_width="446dp" android:layout_height="match_parent" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="24sp" android:textColor="#fff" android:id="@+id/KSW_BL_val" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="21" android:layout_centerHorizontal="true" style="@style/ksw_id8_shadowText"/>
+                <ImageButton android:id="@+id/btnReduceBL" android:background="?attr/btnReduceBg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7dp" android:layout_alignParentBottom="true" android:layout_marginStart="35dp"/>
+                <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekbar_brightness" android:layout_width="305dp" android:layout_height="55dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" app:myCurrentProgress="100" app:myMax="100" app:myMin="0" app:myProgress="?attr/progressBg" app:myProgressBackground="@drawable/ksw_1920x720_evo_id8_settings_system_progress_bar_n" app:myThumb="@drawable/ksw_1920x720_evo_id8_settings_system_progress_bar_slider"/>
+                <ImageButton android:id="@+id/btnAddBL" android:background="?attr/btnAddBg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="7dp" android:layout_alignParentBottom="true" android:layout_marginEnd="35dp" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

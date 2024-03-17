@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="@drawable/kesaiwei_1920x720_evo_id7_bk" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="-27dp" android:textDirection="ltr" android:layoutDirection="ltr">
+    <View android:background="#000" android:layout_width="308dp" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginStart="60dp"/>
+    <TextView android:textSize="20sp" android:textColor="#fff" android:id="@+id/tips" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="120dp" android:text="@string/lbl_android_logcapture_start" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:id="@+id/viewPage1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <CheckBox android:textSize="20sp" android:textColor="#fff" android:gravity="center" android:id="@+id/btnAndroidLog" android:background="@drawable/button_id7_round" android:layout_width="250dp" android:layout_height="64dp" android:layout_marginTop="267dp" android:button="@null" android:text="@string/lbl_android_logcapture" android:layout_marginStart="100dp"/>
+        <Button android:textSize="20sp" android:textColor="#fff" android:gravity="center" android:id="@+id/btnMCULog" android:background="@drawable/button_id7_round2" android:layout_width="250dp" android:layout_height="64dp" android:layout_marginTop="267dp" android:button="@null" android:text="@string/lbl_mcu_logcapture" android:layout_marginEnd="100dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/viewPage2" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="-16dp">
+        <TextView android:textSize="24sp" android:textColor="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="133dp" android:layout_marginTop="80dp" android:text="CANBUS数据采集"/>
+        <RelativeLayout android:id="@+id/viewCan1" android:layout_width="match_parent" android:layout_height="64dp" android:layout_marginTop="162dp">
+            <CheckBox android:id="@+id/chkCan1" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginLeft="186dp" android:button="@null" android:layout_centerVertical="true"/>
+            <TextView android:textSize="24sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="235dp" android:text="CAN 1" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewCan2" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/viewCan1">
+            <CheckBox android:id="@+id/chkCan2" android:background="@drawable/chk_id7_set_round" android:clickable="false" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginLeft="186dp" android:button="@null" android:layout_centerVertical="true"/>
+            <TextView android:textSize="24sp" android:textColor="#fff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="235dp" android:text="CAN 2" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <Button android:textSize="24sp" android:id="@+id/btnStart" android:background="@drawable/button_id7_rectangle2" android:layout_width="167dp" android:layout_height="53dp" android:layout_marginLeft="200dp" android:layout_marginTop="330dp" android:text="开始"/>
+        <Button android:textSize="24sp" android:id="@+id/btnEnd" android:background="@drawable/button_id7_rectangle2" android:layout_width="167dp" android:layout_height="53dp" android:layout_marginTop="330dp" android:text="结束" android:layout_marginEnd="200dp" android:layout_alignParentEnd="true"/>
+    </RelativeLayout>
+</RelativeLayout>

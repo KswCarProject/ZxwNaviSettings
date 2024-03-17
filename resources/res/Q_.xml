@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="434dp" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr" android:paddingStart="6dp" android:paddingEnd="0dp">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/view0" android:layout_width="match_parent" android:layout_height="53dp">
+            <CheckBox android:id="@+id/kesaiwei_dvr_OFF" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+            <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lb_off" android:layout_marginStart="53dp"/>
+            <ImageButton android:id="@+id/btnDvrOFF" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/view1" android:layout_width="match_parent" android:layout_height="53dp" android:layout_below="@+id/view0">
+            <CheckBox android:id="@+id/kesaiwei_dvr_CVBS" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+            <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="CVBS DVR" android:layout_marginStart="53dp"/>
+            <ImageButton android:id="@+id/btnDvrCVBS" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/view2" android:layout_width="match_parent" android:layout_height="53dp" android:layout_below="@+id/view1">
+            <CheckBox android:id="@+id/kesaiwei_dvr_USB" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="15dp"/>
+            <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="USB DVR" android:layout_marginStart="53dp"/>
+            <ImageButton android:id="@+id/btnDvrUSB" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="1dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/viewDvrApp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/view2">
+            <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtDvrApk" android:layout_width="wrap_content" android:layout_height="53dp" android:text="@string/lbl_dvr_apk" android:layout_marginStart="15dp"/>
+            <androidx.recyclerview.widget.RecyclerView android:id="@+id/appList" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-7dp" android:layout_below="@+id/txtDvrApk"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

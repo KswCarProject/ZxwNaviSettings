@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="71dp" android:layout_marginTop="-6dp">
+    <ImageButton android:id="@+id/btnApp" android:background="?attr/btnAppBg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <CheckBox android:id="@+id/chkApp" android:background="@drawable/kesaiwei_1920x720_evo_id8_chk_selector_white" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="34dp"/>
+    <ImageView android:id="@+id/appIcon" android:layout_width="47dp" android:layout_height="47dp" android:layout_centerVertical="true" android:layout_marginStart="13dp" android:layout_marginEnd="13dp" android:layout_toEndOf="@+id/chkApp"/>
+    <TextView android:textSize="25sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/appLabel" android:layout_width="wrap_content" android:layout_height="53dp" android:text="appName" android:layout_centerVertical="true" android:layout_toEndOf="@+id/appIcon" style="@style/ksw_id8_shadowText"/>
+    <ImageView android:id="@+id/line" android:background="@drawable/ksw_1920x720_evo_id8_settings_system_list_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="65dp" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

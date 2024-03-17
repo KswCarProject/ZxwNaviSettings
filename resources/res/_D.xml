@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <ScrollView android:id="@+id/mScrollView" android:layout_width="623dp" android:layout_height="wrap_content" android:layout_marginTop="29dp">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="0dp">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_rcn" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangSCN" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangSCN" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_rtw" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangTCN" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangTCN" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_en" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangEN" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangEN" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_ar" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangAR" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangAR" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_de" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangDE" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangDE" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_el" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangEL" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangEL" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_es" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangES" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangES" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_fr" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangFR" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangFR" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_it" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangIT" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangIT" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_iw" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangIW" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangIW" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_ja" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangJA" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangJA" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_ko" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangKO" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangKO" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_nl" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangNL" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangNL" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_pl" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangPL" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangPL" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_pt" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangPT" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangPT" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_ru" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangRU" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangRU" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_th" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangTH" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangTH" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_tr" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangTR" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangTR" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_vi" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangVI" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangVI" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+                <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/str_language_hr" android:layout_marginStart="107dp"/>
+                <CheckBox android:id="@+id/CkbLangHR" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="44dp"/>
+                <ImageButton android:id="@+id/btnLangHR" android:background="@drawable/pemp_id7_btn_long" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:background="@drawable/als_sp_id7_rp_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83dp" android:layout_marginStart="638dp"/>
+</RelativeLayout>

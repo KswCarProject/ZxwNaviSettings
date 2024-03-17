@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="909dp" android:layout_height="412dp" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="742dp" android:layout_height="66dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:background="@drawable/audi_mib3_settings_icon_eq_1560x700" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+        <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="65dp" android:text="@string/lbl_sound_set" android:layout_marginStart="70dp"/>
+        <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <ScrollView android:id="@+id/mScrollView" android:scrollbars="none" android:layout_width="742dp" android:layout_height="match_parent" android:layout_marginTop="66dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <LinearLayout android:orientation="vertical" android:id="@+id/scrollLayout" android:layout_width="742dp" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="66dp">
+                <ImageButton android:id="@+id/KSW_btn_eq_custom" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="65dp" android:text="@string/lbl_User" android:layout_marginStart="147dp"/>
+                <CheckBox android:id="@+id/chkUser" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_icon_1560x700" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="18dp" android:layout_alignParentEnd="true"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="66dp">
+                <ImageButton android:id="@+id/KSW_btn_eq_pop" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="65dp" android:text="@string/lbl_Pop" android:layout_marginStart="147dp"/>
+                <CheckBox android:id="@+id/chkPop" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="66dp">
+                <ImageButton android:id="@+id/KSW_btn_eq_classical" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="65dp" android:text="@string/lbl_Classical" android:layout_marginStart="147dp"/>
+                <CheckBox android:id="@+id/chkClassical" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="66dp">
+                <ImageButton android:id="@+id/KSW_btn_eq_rock" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="65dp" android:text="@string/lbl_Rock" android:layout_marginStart="147dp"/>
+                <CheckBox android:id="@+id/chkRock" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="66dp">
+                <ImageButton android:id="@+id/KSW_btn_eq_jazz" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="65dp" android:text="@string/lbl_Jazz" android:layout_marginStart="147dp"/>
+                <CheckBox android:id="@+id/chkJazz" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="66dp">
+                <ImageButton android:id="@+id/KSW_btn_eq_dance" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="65dp" android:text="@string/lbl_Dance" android:layout_marginStart="147dp"/>
+                <CheckBox android:id="@+id/chkDance" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="wrap_content" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ImageView android:background="@drawable/audi_mib3_music_filelist_list_slider_n" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="18dp" android:layout_marginEnd="1dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <com.szchoiceway.settings.view.MyScrollbar android:id="@+id/myScrollbar" android:visibility="visible" android:layout_width="3dp" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="18dp" app:drawable="@drawable/audi_mib3_music_filelist_list_slider_d" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+    <RelativeLayout android:id="@+id/viewUser" android:background="#000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <RelativeLayout android:layout_width="742dp" android:layout_height="66dp">
+            <ImageView android:background="@drawable/audi_mib3_settings_icon_eq_1560x700" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="20dp"/>
+            <TextView android:textSize="22sp" android:textColor="#fff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="65dp" android:text="@string/lbl_User" android:layout_marginStart="70dp"/>
+            <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="742dp" android:layout_height="wrap_content" android:layout_marginTop="65dp">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="66dp">
+                <View android:id="@+id/viewKSW_Vol_page2_low" android:background="@drawable/ksw_audi_view_selector" android:clickable="false" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="75dp" android:layout_height="65dp" android:text="@string/lbl_Bass" android:lines="1" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_icon_sound_1560x700" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="163dp"/>
+                <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekbar1_bass" android:layout_width="490dp" android:layout_height="40dp" android:layout_centerVertical="true" android:layout_marginStart="200dp" app:myCurrentProgress="24" app:myMax="24" app:myMin="0" app:myProgress="@drawable/audi_mib3_settings_progress_bar2_d_1560x700" app:myProgressBackground="@drawable/audi_mib3_settings_progress_bar2_n_1560x700" app:myThumb="@drawable/audi_mib3_settings_progress_bar_slider_1560x700"/>
+                <TextView android:textSize="27sp" android:textColor="#fff" android:id="@+id/KSW_VolValue_Bass" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+5" android:layout_centerVertical="true" android:layout_marginStart="6dp" android:layout_toEndOf="@+id/my_seekbar1_bass" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="66dp">
+                <View android:id="@+id/viewKSW_Vol_page2_mid" android:background="@drawable/ksw_audi_view_selector" android:clickable="false" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="75dp" android:layout_height="65dp" android:text="@string/lb_vol_alto" android:lines="1" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_icon_sound_1560x700" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="163dp"/>
+                <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekbar1_alto" android:layout_width="490dp" android:layout_height="40dp" android:layout_centerVertical="true" android:layout_marginStart="200dp" app:myCurrentProgress="24" app:myMax="24" app:myMin="0" app:myProgress="@drawable/audi_mib3_settings_progress_bar2_d_1560x700" app:myProgressBackground="@drawable/audi_mib3_settings_progress_bar2_n_1560x700" app:myThumb="@drawable/audi_mib3_settings_progress_bar_slider_1560x700"/>
+                <TextView android:textSize="27sp" android:textColor="#fff" android:id="@+id/KSW_VolValue_Alto" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+5" android:layout_centerVertical="true" android:layout_marginStart="6dp" android:layout_toEndOf="@+id/my_seekbar1_alto" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="66dp">
+                <View android:id="@+id/viewKSW_Vol_page2_hight" android:background="@drawable/ksw_audi_view_selector" android:clickable="false" android:layout_width="match_parent" android:layout_height="65dp"/>
+                <TextView android:textSize="22sp" android:textColor="#fff" android:ellipsize="end" android:gravity="center_vertical" android:layout_width="75dp" android:layout_height="65dp" android:text="@string/lb_vol_treble" android:lines="1" android:layout_marginStart="93dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_icon_sound_1560x700" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="163dp"/>
+                <com.szchoiceway.settings.view.MySeekbar1 android:id="@+id/my_seekbar1_treble" android:layout_width="490dp" android:layout_height="40dp" android:layout_centerVertical="true" android:layout_marginStart="200dp" app:myCurrentProgress="24" app:myMax="24" app:myMin="0" app:myProgress="@drawable/audi_mib3_settings_progress_bar2_d_1560x700" app:myProgressBackground="@drawable/audi_mib3_settings_progress_bar2_n_1560x700" app:myThumb="@drawable/audi_mib3_settings_progress_bar_slider_1560x700"/>
+                <TextView android:textSize="27sp" android:textColor="#fff" android:id="@+id/KSW_VolValue_Treble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+5" android:layout_centerVertical="true" android:layout_marginStart="6dp" android:layout_toEndOf="@+id/my_seekbar1_treble" style="@style/ksw_id8_shadowText"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

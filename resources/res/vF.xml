@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textDirection="ltr" android:layoutDirection="ltr">
+    <LinearLayout android:orientation="vertical" android:layout_width="623dp" android:layout_height="match_parent" android:layout_marginTop="29dp">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+            <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lbl_datatimer_set" android:layout_marginStart="60dp"/>
+            <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+            <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lb_Time_to_use_the_original_car" android:layout_marginStart="200dp"/>
+            <ImageButton android:id="@+id/btnOriginalTime" android:background="@drawable/pemp_id7_btn_long" android:layout_width="920dp" android:layout_height="67dp"/>
+            <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+            <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lb_Automatic_synchronization" android:layout_marginStart="200dp"/>
+            <ImageButton android:id="@+id/btnAutoSync" android:background="@drawable/pemp_id7_btn_long" android:layout_width="920dp" android:layout_height="67dp"/>
+            <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+            <TextView android:textSize="24sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lbl_Standard" android:layout_marginStart="60dp"/>
+            <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+            <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lb_time_12" android:layout_marginStart="200dp"/>
+            <ImageButton android:id="@+id/btn12Hour" android:background="@drawable/pemp_id7_btn_long" android:layout_width="920dp" android:layout_height="67dp"/>
+            <ImageView android:background="@drawable/als_sp_id7_mp_line" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="67dp">
+            <TextView android:textSize="21sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="67dp" android:text="@string/lb_24_hour" android:layout_marginStart="200dp"/>
+            <ImageButton android:id="@+id/btn24Hour" android:background="@drawable/pemp_id7_btn_long" android:layout_width="920dp" android:layout_height="67dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="34dp">
+        <CheckBox android:id="@+id/kesaiwei_Original_Time" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83dp" android:button="@null" android:layout_marginStart="137dp"/>
+        <CheckBox android:id="@+id/kesaiwei_Auto_Sync" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="35dp" android:button="@null" android:layout_marginStart="137dp"/>
+        <CheckBox android:id="@+id/kesaiwei_12_hour" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="106dp" android:button="@null" android:layout_marginStart="137dp"/>
+        <CheckBox android:id="@+id/kesaiwei_24_hour" android:background="@drawable/pemp_id7_chk_selector1" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:button="@null" android:layout_marginStart="137dp"/>
+    </LinearLayout>
+    <ImageView android:background="@drawable/als_sp_id7_rp_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83dp" android:layout_marginStart="638dp"/>
+</RelativeLayout>

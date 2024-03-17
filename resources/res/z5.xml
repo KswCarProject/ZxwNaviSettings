@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#000" android:layout_width="909dp" android:layout_height="412dp" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:layout_width="889dp" android:layout_height="64dp" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0">
+        <ImageView android:background="@drawable/audi_mib3_settings_icon_set" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="25dp"/>
+        <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="63dp" android:text="@string/lbl_set_unit" android:layout_marginStart="84dp"/>
+        <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <ScrollView android:id="@+id/mScrollView" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64dp">
+        <RelativeLayout android:id="@+id/scrollLayout" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtDistanceUnit" android:layout_width="wrap_content" android:layout_height="63dp" android:text="@string/lbl_unit_distance" android:layout_marginStart="112dp"/>
+            <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="63dp"/>
+            <RelativeLayout android:id="@+id/view0" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/txtDistanceUnit">
+                <ImageButton android:id="@+id/btnDistanceUnitMetric" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_distance_UnitMetric" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+                <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_unit_distance_metric" android:layout_marginStart="158dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="63dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/view1" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/view0">
+                <ImageButton android:id="@+id/btnDistanceUnitImperial" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="63dp"/>
+                <CheckBox android:id="@+id/kesaiwei_distance_UnitImperial" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+                <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/lbl_unit_distance_imperial" android:layout_marginStart="158dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="63dp"/>
+            </RelativeLayout>
+            <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtOilUnit" android:layout_width="wrap_content" android:layout_height="63dp" android:text="@string/lbl_unit_oil" android:layout_below="@+id/view1" android:layout_marginStart="112dp"/>
+            <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/txtOilUnit"/>
+            <RelativeLayout android:id="@+id/view2" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/txtOilUnit">
+                <ImageButton android:id="@+id/btnOilUnitL" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_oil_UnitL" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+                <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="L" android:layout_marginStart="158dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="63dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/view3" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/view2">
+                <ImageButton android:id="@+id/btnOilUnitIUS" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_oil_UnitUS" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+                <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="gal(US)" android:layout_marginStart="158dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="63dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/view4" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/view3">
+                <ImageButton android:id="@+id/btnOilUnitUK" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_oil_UnitUK" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+                <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="gal(UK)" android:layout_marginStart="158dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="63dp"/>
+            </RelativeLayout>
+            <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/txtTempUnit" android:layout_width="wrap_content" android:layout_height="63dp" android:text="@string/lbl_unit_temp" android:layout_below="@+id/view4" android:layout_marginStart="112dp"/>
+            <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_below="@+id/txtTempUnit"/>
+            <RelativeLayout android:id="@+id/view5" android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/txtTempUnit">
+                <ImageButton android:id="@+id/btnTempUnitC" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_temp_unitC" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+                <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="℃" android:layout_marginStart="158dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="63dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="64dp" android:layout_below="@+id/view5">
+                <ImageButton android:id="@+id/btnTempUnitF" android:background="@drawable/ksw_audi_btn_selector0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <CheckBox android:id="@+id/kesaiwei_temp_unitF" android:background="@drawable/ksw_audi_chk_selector" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerVertical="true" android:layout_marginStart="112dp"/>
+                <TextView android:textSize="26sp" android:textColor="#fff" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="°F" android:layout_marginStart="158dp"/>
+                <ImageView android:background="@drawable/audi_mib3_settings_list_line" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="63dp"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <ImageView android:background="@drawable/audi_mib3_music_filelist_list_slider_n" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:layout_marginEnd="1.5dp" android:layout_alignParentEnd="true"/>
+    <com.szchoiceway.settings.view.MyScrollbar android:id="@+id/myScrollbar" android:visibility="visible" android:layout_width="3dp" android:layout_height="match_parent" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:layout_alignParentEnd="true" app:drawable="@drawable/audi_mib3_music_filelist_list_slider_d"/>
+</RelativeLayout>

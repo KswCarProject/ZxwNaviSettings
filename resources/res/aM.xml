@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="530px">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-70px">
+        <ImageView android:background="@drawable/kesaiwei_1920x720_evo_id7_kuang" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="245px" android:layout_marginTop="194px"/>
+        <ImageButton android:id="@+id/BtnResetYes" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="501px" android:layout_marginTop="483px" android:src="@drawable/kesaiwei_1920x720_evo_id7_btn_reset_yes"/>
+        <ImageButton android:id="@+id/BtnResetNo" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="825px" android:layout_marginTop="483px" android:src="@drawable/kesaiwei_1920x720_evo_id7_btn_reset_no"/>
+        <TextView android:textSize="40px" android:textColor="#ff909090" android:gravity="center" android:paddingLeft="25px" android:paddingRight="25px" android:layout_width="892px" android:layout_height="306px" android:layout_marginLeft="245px" android:layout_marginTop="194px" android:text="" android:shadowColor="#ff000000" android:shadowDx="5" android:shadowDy="5" android:shadowRadius="3"/>
+    </RelativeLayout>
+</RelativeLayout>

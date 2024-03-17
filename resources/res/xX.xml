@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent" android:textDirection="ltr" android:layoutDirection="ltr">
+    <RelativeLayout android:id="@+id/lytSysInfor" android:visibility="visible" android:layout_width="623dp" android:layout_height="match_parent" android:layout_marginTop="29dp">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="48dp" android:text="@string/lb_mcu_ver" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvMCUVer" android:layout_width="match_parent" android:layout_height="48dp" android:text="null" android:layout_marginStart="217dp" android:layout_marginEnd="15dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="48dp" android:text="@string/lb_os_ver" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvBootVer" android:layout_width="match_parent" android:layout_height="57dp" android:text="" android:layout_marginStart="217dp" android:layout_marginEnd="15dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="48dp" android:text="@string/lb_android_ver" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvOSVer" android:layout_width="match_parent" android:layout_height="48dp" android:text="" android:layout_marginStart="217dp" android:layout_marginEnd="15dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="48dp" android:text="@string/lb_app_ver" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvAppVer" android:layout_width="match_parent" android:layout_height="48dp" android:text="20151009-Ver1.0.0.0001" android:layout_marginStart="217dp" android:layout_marginEnd="15dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="48dp" android:text="@string/lb_bt_ver" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvBTVer" android:layout_width="match_parent" android:layout_height="48dp" android:text="" android:layout_marginStart="217dp" android:layout_marginEnd="15dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="48dp" android:layout_marginTop="-3dp" android:text="UUID:" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvUUID" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="-3dp" android:text="010E6A88-3BFD-00B6-0000-000100001A88" android:layout_marginStart="217dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="48dp" android:text="@string/lb_nandflash_ver" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvNandflash" android:layout_width="match_parent" android:layout_height="48dp" android:text="4.3GB/32.0GB" android:layout_marginStart="217dp" android:layout_marginEnd="15dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:layout_width="200dp" android:layout_height="48dp" android:text="@string/lb_ram_ver" android:layout_marginStart="20dp"/>
+                <TextView android:textSize="21sp" android:textColor="#eae9e9" android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/TvRAM" android:layout_width="match_parent" android:layout_height="48dp" android:text="786MB/1024MB" android:layout_marginStart="217dp" android:layout_marginEnd="15dp"/>
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="-20dp">
+                <Button android:textSize="21sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/btn_mcu_upgrade" android:background="@drawable/pemp_id7_btn_sys_info" android:layout_width="187dp" android:layout_height="55dp" android:text="@string/lbl_Mcu_Upgrade" android:layout_marginStart="50dp"/>
+                <Button android:textSize="21sp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/btnSysReset" android:background="@drawable/pemp_id7_btn_sys_info" android:layout_width="187dp" android:layout_height="55dp" android:text="@string/lb_reset" android:layout_marginEnd="50dp" android:layout_alignParentEnd="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:background="@drawable/als_sp_id7_rp_settings" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="83dp" android:layout_marginStart="638dp"/>
+</RelativeLayout>
